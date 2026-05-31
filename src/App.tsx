@@ -3,7 +3,7 @@ import './App.css'
 import MultiSelectDropdown from './Components/DropDownWithMultiSelect'
 
 function App(){
-const [showDropDown, setShowDropdown]=useState<Boolean>(false)
+// const [showDropDown, setShowDropdown]=useState<Boolean>(false)
 const [selectedItems, setSelectedItems] = useState(['apple']); // 'apple' is selected by default
 
 // 2. Prepare the complete option list data source
